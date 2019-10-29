@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/gradient"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="Cerrar sesión"
+        android:translationX="150dp"
+        android:translationY="-50dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#070606"
+        android:textStyle="bold"
+        android:translationX="45dp" />
+
+    <TextView
+        android:id="@+id/temail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:translationX="45dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        android:translationX="45dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:translationX="45dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:onClick="increment"
+        android:transformPivotY="200dp"
+        android:translationX="250dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+
+        android:translationX="220dp"
+        android:translationY="70dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:onClick="decrement"
+        android:translationX="150dp"
+        android:translationY="35dp" />
+</LinearLayout>
